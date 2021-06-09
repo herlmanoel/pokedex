@@ -31,8 +31,8 @@ export const GlobalStyle = createGlobalStyle`
     
   }
 
-  h1, h2, h3, p, input {
-    font-family: "segoeuiRegular";
+  h1, h2, h3, p, input, button, a {
+    font-family: "segoeuiRegular", Arial;
   }
 
   
