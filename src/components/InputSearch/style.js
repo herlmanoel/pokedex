@@ -48,6 +48,23 @@ export const InputComponent = styled.input`
 
   ::-webkit-input-placeholder {
     color: #2c3a47;
+    
+  }
+
+  @media (max-width: 400px) {
+    ::-webkit-input-placeholder {
+      font-size: 6vw;
+    }
+  }
+  @media (max-width: 370px) {
+    ::-webkit-input-placeholder {
+      font-size: 5.5vw;
+    }
+  }
+  @media (max-width: 350px) {
+    ::-webkit-input-placeholder {
+      font-size: 5vw;
+    }
   }
 `;
 
